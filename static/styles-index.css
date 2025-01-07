@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for the main content */
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    /* border-bottom: 1px solid #eee; */
+    padding-bottom: 0.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ol, ul {
+    margin: 0 0 1em 2em;
+}
+
+strong {
+    font-weight: 600;
+}
+
+/* Code blocks and inline code */
+code {
+    background-color: #f3f3f3;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: Consolas, monospace;
+    color: #c7254e;
+}
+pre {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    overflow-x: auto;
+}
+pre code {
+    color: #333;
+}
+
+/* Horizontal rule style */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2rem 0;
+}
